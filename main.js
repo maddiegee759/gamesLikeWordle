@@ -32,23 +32,23 @@ btn.addEventListener("click", (e) => {
   e.preventDefault();
 
     for (let i = 0; i < checkboxes(); i++) {
-        if (document.getElementById("game1").checked) {
+        if (document.getElementById("wordle").checked) {
             window.open("https://www.nytimes.com/games/wordle/index.html");
             i += 1;
         }
-        if (document.getElementById("game2").checked) {
+        if (document.getElementById("worldle").checked) {
             window.open("https://worldle.teuteuf.fr/");
             i += 1;
         }
-        if (document.getElementById("game3").checked) {
+        if (document.getElementById("crossherd").checked) {
             window.open("https://crossherd.clevergoat.com/");
             i += 1;
         }
-        if (document.getElementById("game4").checked) {
+        if (document.getElementById("stacked").checked) {
             window.open("https://stacked.clevergoat.com/");
             i += 1;
         }
-        if (document.getElementById("game5").checked) {
+        if (document.getElementById("connections").checked) {
             window.open("https://www.nytimes.com/games/connections");
             i += 1;
         }
