@@ -11,7 +11,153 @@
         <h1>Daily Mobile Games</h1>
         <p>I personally play these games on my phone (dailyish):</p>
         </div>
-    <br>
+    
+        <div class="container">
+        <h2>Mobile Games</h2>
+            <form>
+                <table id="gamesTable" style="width:100%">
+                    <tr>
+                        <th style="width:10%">Tick</th>
+                        <th style="width:25%">Game</th>
+                        <th style="width:45%">Description</th>
+                        <th style="width:20%">Link</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="queens" checked></td>
+                        <td class="gameName">Queens Ultimate</td>
+                        <td>Place queens so each row, column, and region has exactly one.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="flip" checked></td>
+                        <td class="gameName">Flip Ultimate</td>
+                        <td>Flip Ultimate is a free daily logic puzzle game inspired by LinkedIn Tango and the classic Binairo (also known as Takuzu) puzzle.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="mini-sudoku" checked></td>
+                        <td class="gameName">Mini Sudoku</td>
+                        <td>Mini Sudoku is just like regular Sudoku, but smaller! Instead of a 9×9 grid, you'll solve a 6×6 grid using the numbers 1 through 6.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="worldle" checked></td>
+                        <td class="gameName">Worldle</td>
+                        <td>A daily geography game where you guess the country from its shape and get clues with every attempt</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="crossherd" checked></td>
+                        <td class="gameName">Crossherd</td>
+                        <td>Crossherd is a fast-paced 5x5 mini crossword that tests your word skills and speed.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="stacked" checked></td>
+                        <td class="gameName">Stacked</td>
+                        <td>Play Stacked, the daily word game! Uncover hidden connections to reveal the 1, 2, 3, 4, and 5-word groups.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="sumplete" checked></td>
+                        <td class="gameName">Sumplete</td>
+                        <td>Sumplete is a number logic puzzle. Delete numbers so each row and column equals its target.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="statele" checked></td>
+                        <td class="gameName">Statele</td>
+                        <td>Guess the US state/territory in 6 tries.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="angle" checked></td>
+                        <td class="gameName">Angle</td>
+                        <td>Guess the angle in 4 tries.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="flagle" checked></td>
+                        <td class="gameName">Flagle</td>
+                        <td>Guess the country by its flag colours in 6 tries.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="word-salad" checked></td>
+                        <td class="gameName">Word Salad</td>
+                        <td>Swipe the grid to reveal the words hidden in each themed puzzle, and watch as the letters fall away.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="globle" checked></td>
+                        <td class="gameName">Globle</td>
+                        <td>Guess the mystery country using as few guesses as possible.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="strands" checked></td>
+                        <td class="gameName">Strands</td>
+                        <td>Find hidden words and uncover the day's theme.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" value="Open Selected Games" id="submitBtn" onClick="checkboxes();">
+            </form>
+        </div>
+        <br>
     </body>
     <script src="../scripts/main.js"></script>
 </html>
