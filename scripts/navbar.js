@@ -3,19 +3,19 @@
         <nav class="navbar">
             <ul>
                 <li class="nav-item">
-                    <a href="../html/home.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../html/dailyLaptopGames.html">Laptop</a>
+                    <a href="dailyLaptopGames.html">Laptop</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../html/dailyMobileGames.html">Mobile</a>
+                    <a href="dailyMobileGames.html">Mobile</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../html/allGames.html">All Games</a>
+                    <a href="allGames.html">All Games</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../html/contact.html">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>

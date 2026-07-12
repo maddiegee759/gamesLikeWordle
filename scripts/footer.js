@@ -5,19 +5,19 @@
             <p>Created by Maddie Gee</p>
             <button class="footer-icon">
             <a href="https://www.linkedin.com/in/maddie-gee-b40829289/" target="_blank">
-                <img src="../assets/linkedin_icon.png" width="30">
+                <img src="./assets/linkedin_icon.png" width="30">
             </a>
             </button>
 
             <button class="footer-icon">
             <a href="https://github.com/maddiegee759" target="_blank">
-                <img src="../assets/github_icon.png" width="30">
+                <img src="./assets/github_icon.png" width="30">
             </a>
             </button>
 
             <button class="footer-icon">
             <a href="mailto:maddie.gee.759@gmail.com">
-                <img src="../assets/email_icon.webp" width="30">
+                <img src="./assets/email_icon.webp" width="30">
             </a>
             </button>
         </footer>
