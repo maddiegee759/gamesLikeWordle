@@ -1,5 +1,8 @@
 body {
-    background-color: lightblue;
+    background-color: var(--light-blue);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     align-items: center;
@@ -9,13 +12,18 @@ body {
 
 h1 {
     text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
 }
 
 #gamesTable {
-    width: 95%;
     margin: 0 auto;
     border-collapse: collapse;
-    background-color: #f0f0f0;
+    background-color: var(--cream);
     border-radius: 10px;
 }
 
@@ -23,17 +31,30 @@ th, td {
     padding: 15px;
 }
 
+.gameName {
+    font-weight: bold;
+    font-size: 1.2em;
+}
 
 #submitBtn {
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     background-color: green;
-    color: white;
+    color: var(--white);
 }
 
 .container {
-    background-color: white;
+    background-color: var(--white);
+    /*top left bottom right */
+    padding: 10px 10px 20px 10px;
+    width: 70%;
+    border-radius: 10px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.top-info {
     /*top left bottom right */
     padding: 10px 10px 20px 10px;
     width: 70%;
@@ -51,6 +72,7 @@ th, td {
     background-color: lightgray;
     margin-top: auto;
     padding: 10px 10px 20px 10px;
+    width: 100%;
 }
 
 .footer-icon {
@@ -58,3 +80,48 @@ th, td {
     background-color: transparent;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fff;
+    --light-grey: #e1e0e0;
+    --dark-purple: #7c0e7c;
+    --black: #000;
+    --cream: #f0f0f0;
+    --light-blue:#82E0FF;
+}
+
+.navbar {
+    background-color: var(--white);
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    list-style: none;
+    border-radius: 4px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--black);
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar ul .nav-item a:hover {
+    background-color: var(--light-grey);
+    color: var(--white);
+}

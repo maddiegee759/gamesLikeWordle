@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Games Like Wordle</title>
+        <link rel="stylesheet" href="../styles.css">
+        <script defer src="../scripts/navbar.js"></script>
+        <script defer src="../scripts/footer.js"></script>
+    </head>
+    <body>
+        <div class="top-info">
+            <h1>Games Like Wordle</h1>
+            <p>Welcome!</p>
+            <p>Please enable pop-ups for this site. In chrome, go to <a href="chrome://settings/content/popups" target="_blank">Pop-up Settings</a></p>
+        </div>
+        
+        <div class="container">
+        <h2>Popular Games</h2>
+            <form>
+                <table id="gamesTable" style="width:100%">
+                    <tr>
+                        <th style="width:10%">Tick</th>
+                        <th style="width:25%">Game</th>
+                        <th style="width:45%">Description</th>
+                        <th style="width:20%">Link</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="wordle" checked></td>
+                        <td class="gameName">Wordle</td>
+                        <td>Wordle is a daily word game where players have six attempts to guess a five letter word</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="worldle" checked></td>
+                        <td class="gameName">Worldle</td>
+                        <td>A daily geography game where you guess the country from its shape and get clues with every attempt</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="crossherd" checked></td>
+                        <td class="gameName">Crossherd</td>
+                        <td>Crossherd is a fast-paced 5x5 mini crossword that tests your word skills and speed.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="stacked" checked></td>
+                        <td class="gameName">Stacked</td>
+                        <td>Play Stacked, the daily word game! Uncover hidden connections to reveal the 1, 2, 3, 4, and 5-word groups.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="connections" checked></td>
+                        <td class="gameName">Connections</td>
+                        <td>Connections is a word game that challenges players to find 4 themes between 16 words.</td>
+                        <td>
+                            <a target="_blank">
+                                <img src="../assets/pop_out_icon.png" width="30">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" value="Open Selected Games" id="submitBtn" onClick="checkboxes();">
+            </form>
+        </div>
+        <br>
+    </body>
+    <script src="../scripts/main.js"></script>
+</html>
